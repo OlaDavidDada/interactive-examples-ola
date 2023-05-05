@@ -1,6 +1,6 @@
 <section id="example-choice-list" class="example-choice-list large" data-property="overflow-x">
 
-    <div class="example-choice">
+    <div class="example-choice" initial-choice="true">
         <pre><code class="language-css">overflow-x: visible;</code></pre>
         <button type="button" class="copy hidden" aria-hidden="true">
             <span class="visually-hidden">Copy to Clipboard</span>
@@ -39,8 +39,18 @@
 
 <div id="output" class="output large hidden">
     <section id="default-example" class="default-example">
-        <div id="example-element">The value of Pi is
+        <!-- <div id="example-element">The value of Pi is
           3.1415926535897932384626433832795029. The value of e is
-          2.7182818284590452353602874713526625.</div>
+          2.7182818284590452353602874713526625.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis molestiae ullam illum tempora suscipit, voluptates velit. Eveniet, vitae cum dolorem animi dolore perferendis aliquid veritatis sequi totam minus, at provident?</div> -->
+
+            <div id ="example-element">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, quae! Quae sunt numquam, ut ducimus odio cupiditate consequuntur pariatur ad. Ad eos quos tenetur impedit totam dolorem dolore accusamus magnam?
+                If you have <code class="language-css">overflow-x:visible;</code> selected, the overflow is not clipped. The content renders outside the element's box. This is the default value.
+                If you have <code class="language-css">overflow-x:hidden;</code> selected the overflow is clipped and the rest of the content is invisible.
+                If you have <code class="language-css">overflow-x:clip;</code> selected the overflow is clipped and the rest of the content is invisible.
+                If you have <code class="language-css">overflow-x:scroll;</code> selected the overflow is clipped, and a scrollbar is added to see the rest of the content.
+                If you have <code class="language-css">overflow-x:auto;</code> selected the overflow is clipped and a scrollbar is added to see the rest of the content only when necessary.
+            </div>
     </section>
 </div>
